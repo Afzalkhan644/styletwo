@@ -11,4 +11,8 @@ var titleErrorSection=document.getElementById('titleErrorSection');
  } 
  return true; 
  } 
+
+function cancelAddition(){
+document.getElementById('cancelAdditionForm').submit();
+}
  
